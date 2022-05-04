@@ -37,6 +37,12 @@ function Form () {
     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
     <label className="form-check-label" for="exampleCheck1">Check me out</label>
   </div><br/>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked/>
+  <label class="form-check-label" for="exampleRadios1">
+    Default radio
+  </label>
+</div><br/>
   <button type="submit" className="btn btn-primary">Submit</button>
 </form>
 
